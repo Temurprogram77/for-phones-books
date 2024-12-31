@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snow Animation</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <div class="navbar">
+      <a href="#" class="logo">Books</a>
+      <div class="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20" height="20">
+          <path
+            d="M7 11.5C4.51472 11.5 2.5 9.48528 2.5 7C2.5 4.51472 4.51472 2.5 7 2.5C9.48528 2.5 11.5 4.51472 11.5 7C11.5 9.48528 9.48528 11.5 7 11.5ZM7 21.5C4.51472 21.5 2.5 19.4853 2.5 17C2.5 14.5147 4.51472 12.5 7 12.5C9.48528 12.5 11.5 14.5147 11.5 17C11.5 19.4853 9.48528 21.5 7 21.5ZM17 11.5C14.5147 11.5 12.5 9.48528 12.5 7C12.5 4.51472 14.5147 2.5 17 2.5C19.4853 2.5 21.5 4.51472 21.5 7C21.5 9.48528 19.4853 11.5 17 11.5ZM17 21.5C14.5147 21.5 12.5 19.4853 12.5 17C12.5 14.5147 14.5147 12.5 17 12.5C19.4853 12.5 21.5 14.5147 21.5 17C21.5 19.4853 19.4853 21.5 17 21.5ZM7 9.5C8.38071 9.5 9.5 8.38071 9.5 7C9.5 5.61929 8.38071 4.5 7 4.5C5.61929 4.5 4.5 5.61929 4.5 7C4.5 8.38071 5.61929 9.5 7 9.5ZM7 19.5C8.38071 19.5 9.5 18.3807 9.5 17C9.5 15.6193 8.38071 14.5 7 14.5C5.61929 14.5 4.5 15.6193 4.5 17C4.5 18.3807 5.61929 19.5 7 19.5ZM17 9.5C18.3807 9.5 19.5 8.38071 19.5 7C19.5 5.61929 18.3807 4.5 17 4.5C15.6193 4.5 14.5 5.61929 14.5 7C14.5 8.38071 15.6193 9.5 17 9.5ZM17 19.5C18.3807 19.5 19.5 18.3807 19.5 17C19.5 15.6193 18.3807 14.5 17 14.5C15.6193 14.5 14.5 15.6193 14.5 17C14.5 18.3807 15.6193 19.5 17 19.5Z">
+          </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="burger-menu">
+      <div class="close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24">
+          <path
+            d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+          </path>
+        </svg>
+      </div>
+      <div class="search">
+        <label for="search">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20">
+            <path
+              d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+            </path>
+          </svg>
+        </label>
+        <input id="search" type="text" placeholder="Search">
+      </div>
+    </div>
+  </section>
+  <main>
+    <section>
+      <div class="books row">
+        <!-- <div class="books__item col-md-6 col-lg-4 mb-3"> -->
+        <!-- <div class="book card h-100">
+                    <img class="book__poster card-img-top" src="posters/things-fall-apart.jpg" alt="Poster of Things Fall Apart">
+                    <div class="card-body d-flex flex-column">
+                      <h3 class="book__title card-title mb-1 text-truncate">Things Fall Apart</h3>
+                      <h4 class="book__author h6 card-subtitle text-muted mb-3">Chinua Achebe</h4>
+          
+                      <ul class="book__info-list list-unstyled">
+                        <li class="book__info-item book__info-year d-flex mb-1">1958</li>
+                        <li class="book__info-item book__info-language d-flex mb-1">English</li>
+                        <li class="book__info-item book__info-country d-flex mb-1">Nigeria</li>
+                        <li class="book__info-item book__info-pages d-flex mb-1">209</li>
+                      </ul>
+          
+                      <div class="book__bottom d-flex flex-wrap gap-2">
+                        <a class="book__more-link btn btn-primary d-inline-flex align-items-center" target="_blank"
+                          href="https://en.wikipedia.org/wiki/Things_Fall_Apart">
+                          <img class="me-1" src="./img/icon-info.svg" alt="">
+                          <span>More info</span>
+                        </a>
+          
+                        <button class="book__add-library btn btn-primary d-inline-flex align-items-center" type="button"
+                          data-unique-id="Things_Fall_Apart">
+                          <img class="me-1" style="pointer-events: none;" src="./img/icon-bookmark-add.svg" width="24" height="24"
+                            alt="" aria-hidden="true">
+                          <span style="pointer-events: none;">Add to library</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
+  </main>
+
+  <canvas id="smoothSnow"></canvas>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau SC", serif;
+}
+body {
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom, #101214, #1e2025);
+}
+#smoothSnow {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  /* background-size: cover; */
+}
+::-webkit-scrollbar {
+  background: green;
+}
+.nav {
+  padding: 0 20px;
+  position: relative;
+  z-index: 10;
+  background: #101214;
+}
+.logo {
+  font-size: 20px;
+}
+a {
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar {
+  height: 60px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.book {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.book {
+  width: 100%;
+  /* margin: 0 20px; */
+}

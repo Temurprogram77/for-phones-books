@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="/css/account.css">
+</head>
+<body>
+    <div class="account-container">
+        <h1>Account Sahifasi</h1>
+        
+        <!-- Foydalanuvchi rasmi va tahrirlash tugmasi -->
+        <div class="profile">
+            <img id="profileImage" src="default-avatar.png" alt="Profile Image" class="profile-img">
+            <input type="file" id="editImageInput" accept="image/*" style="display: none;">
+            <button id="editImageButton">Rasmni o'zgartirish</button>
+        </div>
+        
+        <!-- Foydalanuvchi ismi va ismni tahrirlash inputi -->
+        <div class="profile-info">
+            <h2>Foydalanuvchi ma'lumotlari</h2>
+            <p>Foydalanuvchi nomi: <span id="usernameSpan"></span></p>
+            <button id="editNameButton">Ismni o'zgartirish</button>
+            <input type="text" id="editNameInput" style="display: none;" placeholder="Yangi ism">
+            <p>Elektron pochta: <span id="emailSpan"></span></p>
+            <p>Parol: <span id="passwordSpan"></span></p>
+        </div>
+        
+        <!-- Chiqish tugmasi -->
+        <button id="logoutButton">Chiqish</button>
+    </div>
+
+    <script src="/js/account.js"></script>
+</body>
+</html>

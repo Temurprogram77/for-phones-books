@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+body {
+  background: linear-gradient(to bottom, #101214, #1e2025);
+  font-family: "Ysabeau SC", serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+}
+.container {
+  color: #fff;
+  position: relative;
+  backdrop-filter: blur(10px);
+  background: #ffffff23;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #06182c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Ysabeau SC';
+  cursor: pointer;
+}
+
+button:hover {
+  background: #09294b;
+}
+
+.error-message {
+  color: rgb(202, 0, 0);
+  font-weight: 800;
+  font-size: 16px;
+  height: 12px;
+}
+
+#resultMessage {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
